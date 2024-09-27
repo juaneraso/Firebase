@@ -9,7 +9,7 @@ const createCount = async () => {
 const increaseCount = async () => {
   const newCount = await Count.increment(
     { value: 1 },
-    { where: { id: "1d067d08-b3c5-4534-abe6-ea3ef52a01d2" } }
+    { where: { id: "c8c3add7-19a5-495b-9b98-573a023e46e8" } }
   );
   return newCount;
 };
@@ -19,7 +19,7 @@ const updateCount = async () => {
   const value = 0;
   const newCount = await Count.update(
     { value: value },
-    { where: { id: "1d067d08-b3c5-4534-abe6-ea3ef52a01d2" } }
+    { where: { id: "c8c3add7-19a5-495b-9b98-573a023e46e8" } }
   );
   return newCount;
 };
